@@ -14,10 +14,13 @@ body {
     background-color: #ffffff;
     width: 50%;
     align-items: center;
+    border-bottom: 3px solid #ddd;
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #ddd;
 }
 
 .list{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     text-align: center;
     flex-direction: row;
@@ -29,20 +32,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    width: 100px;
     text-align: center;
     flex-direction: column;
     align-content: center;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
+    margin: auto;
+    padding-right: 50px;
+
 
 
 }
 
-.portrait{
+.photo img{
     display: flex;
     justify-content: center;
+    border-radius: 50%;
+    margin: auto;
 }
 
 .top{
@@ -50,9 +58,12 @@ body {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    background-color: #ffffff;
     width: 50%;
     margin: auto;
+    border-top: 3px solid #ddd;
+    border-left: 3px solid #ddd;
+    border-right:3px solid #ddd;
+    background-color: #ffffff;
 }
 
 .description{
@@ -71,6 +82,9 @@ body {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
+    background-color: #ffffff;
+    margin-left: 379px;
+    margin-right: 379px;
 }
 
 .odyssey{
@@ -84,6 +98,9 @@ body {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
+    border-left: 3px solid #ddd;
+    border-right:3px solid #ddd;
+    border-top: 3px solid #ddd;
 }
 
 .hulot{
@@ -97,6 +114,8 @@ body {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
+    border-left: 3px solid #ddd;
+    border-right:3px solid #ddd;
 }
 
 .alien{
@@ -110,6 +129,9 @@ body {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
+    border-left: 3px solid #ddd;
+    border-right:3px solid #ddd;
+    border-bottom:3px solid #ddd;
 }
 
 .odysseycontent{
@@ -117,6 +139,7 @@ body {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    
 
 }
 
@@ -135,4 +158,23 @@ body {
     flex-wrap: wrap;
     
 
+}
+
+a{
+    text-decoration:none;
+    color:#cc0000;
+}
+
+a.button,div.container{
+    float:left;
+}
+
+a.button{
+    background-color:#cc0000;
+    border:1px solid #660000;
+    border-radius:5px;
+    color:#fff;
+    margin-right:10px;
+    padding:10px 10px 10px 10px;
+    margin: auto;
 }
