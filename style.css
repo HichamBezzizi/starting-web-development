@@ -142,8 +142,10 @@ body {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    
+}
 
+.odysseycontent p{
+    text-align: center;
 }
 
 .hulotcontent{
@@ -154,13 +156,19 @@ body {
 
 }
 
+.hulotcontent p{
+    text-align: center;
+}
+
 .aliencontent{
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    
+}
 
+.aliencontent p{
+    text-align: center;
 }
 
 a{
@@ -181,3 +189,9 @@ a.button{
     padding:10px 10px 10px 10px;
     margin: auto;
 }
+
+.description p{
+    text-align: center;
+
+}
+
